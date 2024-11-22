@@ -1,5 +1,5 @@
 document.getElementById('connectButton').addEventListener('click', function() {
-    const socket = new WebSocket('ws://minecraft-server-address:port');
+    const socket = new WebSocket('ws://kohakuserver.f5.si:8443');
     
     socket.onopen = function() {
       document.getElementById('status').textContent = "Connected to the server!";
